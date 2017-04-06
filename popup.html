@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div id="wrap">
+		<ul class="m-list-form">
+			<li>
+				<label>Base Calendar</label>
+				<select name="base_ids" id="base_ids" class="js-storage"></select>
+			</li>
+			<li>
+				<label>Target Calendar</label>
+				<select name="target_ids" id="target_ids" class="js-storage"></select>
+			</li>
+			<li>
+				<label>Target Date</label>
+				<input type="date" id="date">
+			</li>
+			<li>
+				<button id="convert">Clone Schedule</button>
+			</li>
+			<li>
+				<textarea id="buff" rows="10"></textarea>
+			</li>
+		</ul>
+	</div>
+
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="oauth2/oauth2.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
